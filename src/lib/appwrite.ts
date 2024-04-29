@@ -23,8 +23,8 @@ export type AppwritePage = {
 } & Models.Document;
 
 export const AppwriteClient = new Client()
-	.setEndpoint('https://appwrite.authui.site/v1')
-	.setProject('authUi');
+	.setEndpoint('https://cloud.appwrite.io/v1')
+	.setProject('662f4d15003171650aae');
 
 export const AppwriteDatabases = new Databases(AppwriteClient);
 export const AppwriteAccount = new Account(AppwriteClient);
